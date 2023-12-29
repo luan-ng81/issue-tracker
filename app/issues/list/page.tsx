@@ -1,8 +1,8 @@
 import { Table } from "@radix-ui/themes";
 import React from "react";
-import Link from "../components/Link";
+import Link from "../../components/Link";
 import prisma from "@/prisma/client";
-import IssueStatusBadge from "../components/IssueStatusBadge";
+import IssueStatusBadge from "../../components/IssueStatusBadge";
 import IssueActions from "./IssueActions";
 
 const IssuesPage = async () => {
